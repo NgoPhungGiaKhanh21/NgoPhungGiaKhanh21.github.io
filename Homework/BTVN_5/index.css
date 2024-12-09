@@ -1,0 +1,267 @@
+.left{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: #C19A6B;
+}
+.navbar-right {
+    list-style: none; 
+    display: flex; 
+}
+
+.navbar-item {
+    margin: 30px 15px; 
+    padding: 0px 30px;
+}
+
+.navbar-item a {
+    text-decoration: none; 
+    color: #333; 
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.navbar-item a:hover {
+    color: white;
+    background-color: #C19A6B;
+    border: 10px solid #C19A6B;
+    border-radius: 8px;
+}
+.imglarge img{
+    width: 100%;
+    height: 70vh;
+}
+.introduction{
+    text-align: center;
+    margin-top: 100px;
+}
+.introduction h2{
+    color: #C19A6B;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.introduction p{
+    color: lightgrey;
+    font-size: 30px;
+    font-weight: bold; 
+    margin-bottom: 20px;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.card{
+    width: 40vh;
+    height: 40vh;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;   
+}
+.card img{
+    width: 100%;
+    height: 200px;
+}
+.card h5{
+    font-size: 30px;
+    font-weight: bold;
+    color: #C19A6B;
+}
+.card p{
+    font-size: 20px;
+    font-weight: bold;
+    color: lightgrey;
+}
+.card .btn{
+    background-color: #c9a02c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: auto;
+    width: 150px;
+    height: 50px;
+}
+.card .btn:hover{
+    background-color: #b48d1f;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.left-content{
+    width: 50%;
+    margin-top: 30px;
+}
+.right-content{
+    width: 55%;
+    padding-left: 120px;
+    margin-top: 30px;
+}
+.content-img h3{
+    color: #C19A6B;
+}
+.content-img p{
+    color: lightgray;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.content-img img {
+    width: 80%;
+    height: 300px;
+}
+.content{
+    width: 80%;
+}
+.content p{
+    color: lightgray;
+    margin: 20px 0;
+}
+.btn{
+    background-color: #C19A6B;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+.c{
+    display: flex;
+}
+.content2-c2{
+    margin-left: 200px;
+}
+.content2-c1 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.content2-c2 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.content2-c1 p{
+    color: lightskyblue;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.content-img2{
+    display: flex;
+    margin-top: 15px;
+}
+.content2-c2 p{
+    color: lightskyblue;
+    text-decoration: underline;
+    font-size: 18px;
+}
+.post h4{
+    margin: 30px 0;
+    color: #C19A6B;
+}
+.img1{
+    flex: 1;
+    margin-top: 20px;
+}
+.para{
+    flex: 2;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+.para h3{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.para p{
+    color: lightgray;
+}
+.hr{
+    margin-top: 90px;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+    padding: 30px 30px;
+}
+.footer1{
+    width: 300px;
+}
+.footer1 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer1-content{
+    background-color: lightgray;
+    width: 100%;
+    height: auto;
+}
+.footer1-content p{
+    padding: 10px 10px;
+}
+.footer1-content .p1{
+    color: black;
+    font-weight: bold;
+}
+.footer1 .p2{
+    margin-top: 200px;
+    color: white;
+}
+.footer2 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer2 p{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+.footer3{
+    width: 300px;
+}
+.footer3 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer3 p{
+    margin-bottom: 30px;
+    color: white;
+}
+.hr1{
+    margin-top: 30px;
+    color: white;
+}
+.btn1{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border: 10px solid gray;
+    border-radius: 5px;
+}
+.footer4 h4{
+    color: #C19A6B;
+    margin-bottom: 20px;
+}
+.footer4 img{
+    width: 500px;
+    margin-bottom: 20px;
+}
+.footer4 p{
+    width: 500px;
+    color: white;
+}
+.btn2{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    border: 10px solid gray;
+    border-radius: 5px;
+}
