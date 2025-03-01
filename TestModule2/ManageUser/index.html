@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manage User</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <h1>Manage User and Post</h1>
+        <button onclick="showContent('login')">Đăng nhập</button>
+        <button onclick="showContent('register')">Đăng ký</button>
+        <button onclick="showContent('userList')">Danh sách User</button>
+        <button onclick="showContent('posts')">Danh sách Post</button>
+        <button onclick="showContent('userPost')">Tìm bài viết</button>
+      </div>
+    </div>
+    <div class="content">
+      <div id="login" class="section">
+        <h2>Đăng nhập</h2>
+        <input type="email" id="loginEmail" placeholder="Email" />
+        <input type="password" id="loginPassword" placeholder="Password" />
+        <button onclick="login()">Đăng Nhập</button>
+      </div>
+      <div id="register" class="section">
+        <h2>Đăng ký</h2>
+        <input type="text" id="firstName" placeholder="First Name" />
+        <input type="text" id="lastName" placeholder="Last Name" />
+        <input type="email" id="registerEmail" placeholder="Email" />
+        <input type="password" id="registerPass" placeholder="Password" />
+        <button onclick="register()">Đăng ký</button>
+      </div>
+      <div id="userList" class="section">
+        <h2>Danh sách user</h2>
+        <input type="text" id="key" placeholder="Enter keyword" />
+        <button onclick="searchUser()">Tìm kiếm</button>
+        <ul id="users"></ul>
+      </div>
+      <div id="posts" class="section">
+        <div id="postList">
+          <h2>Danh sách post</h2>
+          <ul id="posts"></ul>
+        </div>
+        <div id="postDetail">
+          <h2>Chi tiết post</h2>
+          <input type="number" id="postId" placeholder="Enter post id" />
+          <button onclick="viewPost()">Xem chi tiết</button>
+          <div id="postContent"></div>
+        </div>
+      </div>
+      <div id="userPost" class="section">
+        <h2>Tìm kiếm post theo user</h2>
+        <input type="email" id="searchEmail" placeholder="Enter email" />
+        <button onclick="searchPostByEmail()">Tìm kiếm</button>
+        <ul id="userPostList"></ul>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+    <script src="./users.js"></script>
+    <script src="./posts.js"></script>
+  </body>
+</html>
